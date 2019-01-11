@@ -63,6 +63,8 @@ I used the 10% dataset called kddcup.data_10_percent.gz, which has 494020 observ
 41- dst_host_rerror_rate: continuous.
 42- dst_host_srv_rerror_rate: continuous.
 
+# --------------------
+
 In this Dataset there are 23 class. Only one of thous classes is a normal connection and the other  22 classes are different variations of malicious connections (attacks).
 
 ### The names of classes are enumirated below :
@@ -90,7 +92,9 @@ In this Dataset there are 23 class. Only one of thous classes is a normal connec
 21- teardrop
 22- warezclient
 23- warezmaster
- 
+
+### ---------
+
 I converted the Dataset into a binary classification. So I managed to change the names of all malicious connections into one class called "atatck". Therefore I will deal with two classes "normal" and "attack".
 
 To change the categorical values into numerical values I used LabelEncoder and OneHotEncoder which are objects in ScikitLearn library.
@@ -98,3 +102,22 @@ To change the categorical values into numerical values I used LabelEncoder and O
 And now splitting the Dataset into training set and testing set. We must also do a normalization to be sure that the results are correct.
 
 The preprocessing phase is complete.
+
+## The obtained results are :
+
+### Simple Neural Network :
+The accuracy = 0.9993
+Recall = 0.9984
+False positive rate = 0.0004
+Precision = 0.9983
+F-Measure = 0.9983
+Entropy = 0.0016
+
+### Naive Bayes :
+The accuracy = 0.9480
+Recall = 0.7926
+False positive rate = 0.0002
+Precision = 0.9991
+F-Measure = 0.8840
+Entropy = 0.0008
+
