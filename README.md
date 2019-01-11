@@ -62,3 +62,39 @@ I used the 10% dataset called kddcup.data_10_percent.gz, which has 494020 observ
 40- dst_host_srv_serror_rate: continuous.
 41- dst_host_rerror_rate: continuous.
 42- dst_host_srv_rerror_rate: continuous.
+
+In this Dataset there are 23 class. Only one of thous classes is a normal connection and the other  22 classes are different variations of malicious connections (attacks).
+
+### The names of classes are enumirated below :
+
+1- normal
+2- back
+3- buffer_overflow
+4- ftp_write
+5- guess_passwd
+6- imap
+7- ipsweep
+8- land
+9- loadmodule
+10- multihop
+11- Neptune
+12- nmap
+13- perl
+14- phf
+15- pod
+16- portsweep
+17- rootkit
+18- Satan
+19- smurf
+20- spy
+21- teardrop
+22- warezclient
+23- warezmaster
+ 
+I converted the Dataset into a binary classification. So I managed to change the names of all malicious connections into one class called "atatck". Therefore I will deal with two classes "normal" and "attack".
+
+To change the categorical values into numerical values I used LabelEncoder and OneHotEncoder which are objects in ScikitLearn library.
+
+And now splitting the Dataset into training set and testing set. We must also do a normalization to be sure that the results are correct.
+
+The preprocessing phase is complete.
