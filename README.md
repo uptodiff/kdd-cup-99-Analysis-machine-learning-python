@@ -8,4 +8,4 @@ I used this particular 10% dataset. You can easily download it from the link bel
 
 http://kdd.ics.uci.edu/databases/kddcup99/kddcup.data_10_percent.gz
 
-Extract it and used like you want.
+Extract it and use it like you want.
