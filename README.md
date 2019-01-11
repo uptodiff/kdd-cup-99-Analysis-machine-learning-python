@@ -1,4 +1,8 @@
-# kdd-cup-99-Analysis-machine-learning-python
+# kdd cup 99 Analysis Machine Learning Python
+
+I got 99.94% accuracy by applying properly a simple Neural Network on the Dataset.
+
+I got 94% accuracy by applying properly Naive Bayes Algorithm on the Dataset. 
 
 You can download the dataset from it's offial website in here:
 
