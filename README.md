@@ -16,7 +16,7 @@ Extract it and use it like you want.
 
 ## PreProcessing :
 
-Check my machine learning template repository to understand what I did. Click the link below :
+Check my machine learning PreProcessing template repository to understand what I did. Click the link below :
 
 https://github.com/chadlimedamine/Machine-learning-preprocessing-templates-with-python
 
