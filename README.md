@@ -16,6 +16,10 @@ Extract it and use it like you want.
 
 ## PreProcessing :
 
+Check my machine learning template repository to understand what I did. Click the link below :
+
+https://github.com/chadlimedamine/Machine-learning-preprocessing-templates-with-python
+
 I used the 10% dataset called kddcup.data_10_percent.gz, which has 494020 observation (rows), and it consists of 42 attributes (columns).
 
 ### The list of attributes is illustrated below:
